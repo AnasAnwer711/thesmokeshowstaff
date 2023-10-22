@@ -1,0 +1,47 @@
+.bg-pink {
+    background-color: var(--e-global-color-secondary) !important;
+}
+.basic-detail {
+    background: #cb007429;
+}
+.job-created-by img {
+    width: 20px;
+    height: 20px;
+    background: #cb0074;
+    border-radius: 25px;
+}
+span.mx-2.flex-vertical-seprator {
+    font-size: 36px;
+    line-height: 34px;
+    color: #cb0074;
+}
+.basic-detail i {
+    font-size: 26px;
+    color: #14929f;
+}
+.dflex-element {
+    border-right: 3px solid #cb0074;
+    padding: 10px 12px;
+    background: #ffffff2b;
+}
+.dflex-element:last-child {
+    border: none;
+}
+.job-detail-card .card-title {
+    background: #70c9c64f;
+    margin: 0;
+    padding: 10px;
+}
+.badge-pink {
+    background-color: #cb0074;
+}
+.table-iner-title {
+    background: #0f8ca2e3 !important ;
+}
+
+.table > thead tr {
+    vertical-align: bottom;
+    background-color: #cb0074;
+    color: #fff;
+    border: 1px solid #d3eeed;
+}

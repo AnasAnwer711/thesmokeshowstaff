@@ -1,0 +1,55 @@
+/*Transaction Page Styling*/
+.table {
+  border: 1px solid #ddd !important;
+}
+.table > thead {
+  vertical-align: bottom;
+  background-color: var(--e-global-color-secondary);
+  color: #fff;
+  border: 1px solid var(--e-global-color-secondary);
+}
+.table > :not(:first-child) {
+  border-top: 2px solid #009398 !important;
+}
+.table thead th {
+  border-bottom: none !important;
+  border-top: none !important;
+  vertical-align: middle !important;
+}
+
+.table th,
+.table td {
+  padding: 1rem !important;
+  vertical-align: top !important;
+  border-top: 1px solid #dee2e6 !important;
+}
+
+.progress {
+  margin-top: 6px !important;
+}
+.amnt {
+  color: var(--e-global-color-primary) !important;
+}
+.referral-credits {
+  background: #009398;
+  width: 82px;
+  height: 70px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50%;
+  padding: 15px 0;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .referral-credits {
+    width: 82px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

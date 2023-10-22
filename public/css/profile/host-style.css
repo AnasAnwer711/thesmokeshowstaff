@@ -1,0 +1,179 @@
+/*host profile main-pic styling======================================*/
+.choices__list--dropdown {
+  z-index: 1009 !important;
+}
+.alt-pic-wrapper {
+  width: 100%;
+}
+
+.main-pic-holder {
+  text-align: center;
+  position: relative;
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-pic-holder .pic {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.main-pic-holder .upload-file-block,
+.main-pic-holder .upload-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(90, 92, 105, 0.7);
+  color: #f8f9fc;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.main-pic-holder .upload-file-block {
+  cursor: pointer;
+}
+
+.main-pic-holder:hover .upload-file-block {
+  opacity: 1;
+}
+
+.main-pic-holder.uploadInProgress .upload-file-block {
+  display: none;
+}
+
+.main-pic-holder.uploadInProgress .upload-loader {
+  opacity: 1;
+}
+
+/*Profile alt-pic styling============================*/
+
+.profile-pic-wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic-wrapper i {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 100%;
+}
+.alt-pic-holder {
+  text-align: center;
+  position: relative;
+  border-radius: 0;
+  max-width: 200px;
+  max-height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: auto; */
+  height: 100px;
+  margin: 5px;
+  border: 1px solid #eee !important;
+}
+.alt-pic-holder i.delete-icon {
+  position: absolute;
+  font-size: 16px;
+  border: 2px solid #fff;
+  right: 2px;
+  bottom: 0;
+  cursor: pointer;
+  z-index: 999999;
+  border-radius: 100%;
+  padding: 5px;
+}
+.skill-photo i {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  border: 2px solid;
+  border-radius: 100%;
+  padding: 2px;
+  font-size: 11px;
+}
+.alt-pic-holder .pic {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.alt-pic-holder .upload-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(90, 92, 105, 0.7);
+  color: #f8f9fc;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.alt-pic-holder .upload-file-block {
+  cursor: pointer;
+}
+.alt-pic-holder .upload-file-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(90, 92, 105, 0.7);
+  color: #f8f9fc;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+/* .alt-pic-holder:hover .upload-file-block {
+  opacity: 1;
+} */
+
+.alt-pic-holder.uploadInProgress .upload-file-block {
+  display: none;
+}
+
+.alt-pic-holder.uploadInProgress .upload-loader {
+  opacity: 1;
+}
+
+label.form-control-760 {
+  padding-left: 13px;
+  margin: 10px 0px;
+}
+
+/*==================================================================*/

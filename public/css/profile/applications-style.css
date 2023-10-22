@@ -1,0 +1,6 @@
+.table > thead {
+    vertical-align: bottom;
+    background-color: var(--e-global-color-secondary);
+    color: #fff;
+    border: 1px solid var(--e-global-color-secondary);
+}

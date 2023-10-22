@@ -1,0 +1,295 @@
+.mykit {
+  --e-global-color-primary: #009398;
+  --e-global-color-secondary: #cb0074;
+  --e-global-color-text: #888888;
+  --e-global-color-accent: #efefef;
+  --e-global-typography-primary-font-family: "Playfair Display";
+  --e-global-typography-primary-font-weight: 800;
+  --e-global-typography-secondary-font-family: "Playfair Display";
+  --e-global-typography-secondary-font-weight: 800;
+  --e-global-typography-text-font-family: "soleil";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "soleil";
+  --e-global-typography-accent-font-weight: 500;
+}
+.white-fill-btn {
+  font-family: "soleil", Sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  fill: var(--e-global-color-secondary);
+  color: var(--e-global-color-secondary);
+  background-color: var(--e-global-color-accent);
+  font-size: 16px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.white-fill-btn:hover {
+  color: var(--e-global-color-primary);
+  background-color: var(--e-global-color-accent);
+  transform: scale(1.1);
+}
+.theme-pink-fill-btn {
+  font-family: "soleil", Sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: var(--e-global-color-secondary);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.theme-pink-fill-btn:hover {
+  transform: scale(1.1);
+}
+
+.mykit h1 {
+  font-size: 70px !important;
+  line-height: 90px !important;
+}
+.mykit h2 {
+  font-size: 58px !important;
+  line-height: 78px !important;
+}
+.mykit h3 {
+  font-size: 48px !important;
+  line-height: 68px !important;
+}
+.mykit h4 {
+  font-size: 38px !important;
+  line-height: 58px !important;
+}
+.mykit h5 {
+  font-size: 28px !important;
+  line-height: 48px !important;
+}
+.heading-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+}
+.para {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: 1.75em;
+}
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section h6 {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+}
+.section-two.banner-one {
+  padding: 50px 50px 70px 50px;
+}
+.section-three.banner-two {
+  background: url("/images/blured-background-party.jpg");
+  padding: 90px 70px 90px 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-three.banner-two .section-content {
+  width: 50%;
+  margin: 0 auto;
+}
+/* .section-three.banner-two .section-content h4 {
+  font-weight: 600;
+  line-height: 1.6em !important;
+} */
+.section.section-four .bg-img {
+  background: url(/images/woman-bikini-disco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.section.section-four .col-right .col-content {
+  padding: 125px 15px;
+}
+.section.section-five .col-left .col-content {
+  padding: 70px 70px 70px 70px;
+  background-color: var(--e-global-color-primary);
+}
+.section.section-five .col-left .col-content ul li {
+  margin: 14px;
+  font-family: "soleil", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  list-style: none;
+  display: flex;
+}
+.section.section-five .col-left .col-content ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.section.section-five .col-left .col-content strong {
+  font-family: "soleil", Sans-serif;
+  font-size: 22px;
+  line-height: 1.6em;
+}
+
+span.count-circle {
+  background: #fff;
+  color: #009398;
+  border-radius: 100%;
+  display: inline-block;
+  width: 25px;
+  font-size: 14px;
+  height: 25px;
+  margin-right: 8px;
+  text-align: center;
+  line-height: 24px;
+}
+.section.section-five .bg-img {
+  background: url(/images/two-sexy-girls-swimming-suit-relaxing-swimming-pool.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.section-six.banner-three {
+  padding: 50px 50px 70px 50px;
+}
+.section.section-seven .bg-img {
+  background: url(/images/sexy-woman-bikini-drink-pool.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.section.section-seven .col-right .col-content {
+  padding: 70px 70px 70px 70px;
+  background-color: var(--e-global-color-primary);
+}
+.section.section-seven .col-right .col-content ul li {
+  margin: 14px;
+  font-family: "soleil", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  list-style: none;
+  display: flex;
+}
+.section.section-seven .col-right .col-content ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.section.section-seven .col-right .col-content strong {
+  font-family: "soleil", Sans-serif;
+  font-size: 22px;
+  line-height: 1.6em;
+}
+span.ul-list-icon i {
+  background: #fff;
+  color: #009398;
+  border-radius: 100%;
+  display: inline-block;
+  width: 25px;
+  font-size: 14px;
+  height: 25px;
+  margin-right: 8px;
+  text-align: center;
+  line-height: 25px;
+}
+.section-eight {
+  padding: 70px 70px 70px 70px;
+}
+.section-eight.banner.banner-four h5.heading-title {
+  font-family: "soleil", Sans-serif;
+  font-weight: 600;
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .section-two.banner-one {
+    padding: 25px;
+  }
+  .section-three.banner-two {
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-three.banner-two .section-content {
+    width: 100%;
+    padding: 30px;
+  }
+  .section.section-four .bg-img {
+    background-position: center;
+  }
+  .section.section-four .col-right .col-content {
+    padding: 30px;
+  }
+  .section.section-five .col-left .col-content {
+    padding: 30px;
+  }
+  .section.section-five .col-left .col-content ul li {
+    display: inline-block;
+  }
+  .section.section-five .bg-img {
+    background-position: center;
+  }
+  .section-six.banner-three {
+    padding: 30px;
+  }
+  .section.section-seven .col-right .col-content {
+    padding: 30px;
+  }
+  button.text-uppercase.white-fill-btn {
+    margin: 15px 0 !important;
+  }
+  .section-eight {
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section-two.banner-one {
+    padding: 0;
+  }
+  .mykit h2 {
+    font-size: 48px !important;
+    line-height: 50px !important;
+  }
+  .mykit h3 {
+    font-size: 38px !important;
+    line-height: 40px !important;
+  }
+  .mykit h4 {
+    font-size: 32px !important;
+    line-height: 34px !important;
+  }
+  .mykit h5 {
+    font-size: 26px !important;
+    line-height: 28px !important;
+  }
+  .action-btn {
+    margin: 15px 0;
+  }
+  .section-three.banner-two {
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-three.banner-two .section-content {
+    width: 100%;
+    padding: 30px;
+  }
+  .section.section-four .col-right .col-content {
+    padding: 30px;
+  }
+  .section.section-five .col-left .col-content {
+    padding: 30px;
+  }
+  .section.section-five .col-left .col-content ul li {
+    display: inline-block;
+  }
+  .section-six.banner-three {
+    padding: 30px;
+  }
+  .section.section-seven .col-right .col-content {
+    padding: 30px;
+  }
+  button.text-uppercase.white-fill-btn {
+    margin: 15px 0 !important;
+  }
+  .section-eight {
+    padding: 30px;
+  }
+}

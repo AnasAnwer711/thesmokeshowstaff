@@ -1,0 +1,57 @@
+.mykit {
+    --e-global-color-primary: #009398;
+    --e-global-color-secondary: #cb0074;
+    --e-global-color-text: #888888;
+    --e-global-color-accent: #efefef;
+    --e-global-typography-primary-font-family: "Playfair Display";
+    --e-global-typography-primary-font-weight: 800;
+    --e-global-typography-secondary-font-family: "Playfair Display";
+    --e-global-typography-secondary-font-weight: 800;
+    --e-global-typography-text-font-family: "soleil";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "soleil";
+    --e-global-typography-accent-font-weight: 500;
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+}
+
+.mykit h1 {
+    font-size: 70px !important;
+    line-height: 90px !important;
+}
+.mykit h2 {
+    font-size: 58px !important;
+    line-height: 78px !important;
+}
+.mykit h3 {
+    font-size: 48px !important;
+    line-height: 68px !important;
+}
+.mykit h4 {
+    font-size: 38px !important;
+    line-height: 58px !important;
+}
+.mykit h5 {
+    font-size: 28px !important;
+    line-height: 48px !important;
+}
+.heading-title {
+    color: var(--e-global-color-primary);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
+.para {
+    color: var(--e-global-color-text);
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+    line-height: 1.75em;
+}
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section h6 {
+    color: #000;
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}

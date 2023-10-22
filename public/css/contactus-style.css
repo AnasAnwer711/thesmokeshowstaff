@@ -1,0 +1,159 @@
+.mykit {
+  --e-global-color-primary: #009398;
+  --e-global-color-secondary: #cb0074;
+  --e-global-color-text: #888888;
+  --e-global-color-accent: #efefef;
+  --e-global-typography-primary-font-family: "Playfair Display";
+  --e-global-typography-primary-font-weight: 800;
+  --e-global-typography-secondary-font-family: "Playfair Display";
+  --e-global-typography-secondary-font-weight: 800;
+  --e-global-typography-text-font-family: "soleil";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "soleil";
+  --e-global-typography-accent-font-weight: 500;
+}
+.white-fill-btn {
+  font-family: "soleil", Sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  fill: var(--e-global-color-secondary);
+  color: var(--e-global-color-secondary);
+  background-color: var(--e-global-color-accent);
+  font-size: 16px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.white-fill-btn:hover {
+  color: var(--e-global-color-primary);
+  background-color: var(--e-global-color-accent);
+  transform: scale(1.1);
+}
+.theme-pink-fill-btn {
+  font-family: "soleil", Sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: var(--e-global-color-secondary);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.theme-pink-fill-btn:hover {
+  transform: scale(1.1);
+}
+
+.mykit h1 {
+  font-size: 70px !important;
+  line-height: 90px !important;
+}
+.mykit h2 {
+  font-size: 58px !important;
+  line-height: 78px !important;
+}
+.mykit h3 {
+  font-size: 48px !important;
+  line-height: 68px !important;
+}
+.mykit h4 {
+  font-size: 38px !important;
+  line-height: 58px !important;
+}
+.mykit h5 {
+  font-size: 28px !important;
+  line-height: 48px !important;
+}
+.heading-title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+}
+.para {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-text-font-weight);
+  line-height: 1.75em;
+}
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5,
+.section h6 {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+}
+.section-one.banner-one {
+  background: url(/images/beer-mug-in-celebration-of-beer-beverage-light-colored-fire-celebration-concept-with-copy-space.jpg);
+  display: flex;
+  height: 55vh;
+  align-items: flex-end;
+  padding: 60px 60px 60px 60px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.61);
+}
+.green-panel {
+  padding: 35px 70px !important;
+  background-color: var(--e-global-color-primary);
+}
+
+.section-three button.accordion-button {
+  font-weight: 800;
+  background: transparent;
+  color: #009398;
+  padding: 5px 25px;
+}
+.section-three .accordion-button:focus {
+  z-index: 3;
+  border-color: #009398;
+  outline: 0;
+  box-shadow: inset 0 0 0 0.25rem rgb(0 147 152 / 12%);
+}
+.text-default {
+  color: var(--e-global-color-text);
+}
+.section-three .accordion-item:not(:first-of-type) {
+  border-top: 1px solid #eee;
+  margin-top: 14px;
+}
+
+/*  */
+
+.green-panel {
+  padding: 30px 60px;
+  background-color: var(--e-global-color-primary);
+}
+
+.section-five button.accordion-button {
+  font-weight: 800;
+  background: transparent;
+  color: #009398;
+  padding: 5px 25px;
+}
+.section-five .accordion-button:focus {
+  z-index: 3;
+  border-color: #009398;
+  outline: 0;
+  box-shadow: inset 0 0 0 0.25rem rgb(0 147 152 / 12%);
+}
+.section-five .accordion-item:not(:first-of-type) {
+  border-top: 1px solid #eee;
+  margin-top: 14px;
+}
+.form {
+  padding: 35px !important;
+}
+.form input.form-control {
+  border: 1px solid #c6c6c6;
+  background: #fafafa;
+  margin: 0 0 0 0px;
+}
+.form-group .label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #4b4558;
+  margin-bottom: 10px;
+}

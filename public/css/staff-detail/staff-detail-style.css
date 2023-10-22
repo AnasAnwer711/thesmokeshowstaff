@@ -1,0 +1,86 @@
+.lslide.active img {
+    width: 100%;
+}
+.card {
+    border: none;
+}
+.bullets .bullet-point {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bullets .bullet-point span {
+    color: #000;
+    text-transform: capitalize;
+}
+.bullet-text {
+    font-size: 12px;
+}
+.indent-line {
+    border: 1px dashed #cb007426;
+    width: 40%;
+    height: 1px;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.skills .skill-icn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: var(--e-global-color-secondary);
+    border: 1px solid var(--e-global-color-secondary);
+    border-radius: 10px;
+    height: 48px;
+    box-sizing: border-box;
+}
+/* .buttons .btn {
+    height: 46px;
+    line-height: 32px;
+} */
+.btn-long {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+/* .btn {
+    border: 1px solid var(--e-global-color-secondary);
+    border-radius: 10px;
+    background-color: #fff;
+}
+.btn:hover {
+    color: #fff;
+    background-color: var(--e-global-color-secondary);
+} */
+.btn-block {
+    width: 100%;
+}
+/* #orange,
+select,
+.btn {
+    color: var(--e-global-color-secondary);
+} */
+.rating-color {
+    color: #fbc634 !important;
+}
+.profile-image {
+    width: 35px;
+}
+.comment-ratings i {
+    color: #f6d151;
+}
+.comment-ratings i {
+    font-size: 13px;
+}
+.username {
+    font-size: 12px;
+}
+.badge i {
+    font-size: 10px;
+}

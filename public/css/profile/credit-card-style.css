@@ -1,0 +1,86 @@
+.saved-card-1 {
+  width: 100%;
+  background: var(--e-global-color-primary);
+  border-radius: 15px;
+  border: none;
+}
+.jp-card-shiny {
+  background: #f8e8ab;
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  position: relative;
+}
+.jp-card-shiny:before {
+  content: " ";
+  display: block;
+  width: 70%;
+  height: 60%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #e2af1e;
+  position: absolute;
+  top: 20%;
+}
+
+.dots span {
+  height: 5px;
+  width: 5px;
+  margin-right: 3px;
+  margin-bottom: 2px !important;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
+.add-new-card {
+  height: 100%;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  color: var(--e-global-color-primary);
+  box-shadow: 0px 2px 3px #ddd;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.form-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.personal-information {
+  background-color: var(--e-global-color-secondary);
+  color: #fff;
+  padding: 1px 0;
+  text-align: center;
+}
+.card-wrapper {
+  /* background-color: var(--e-global-color-secondary); */
+  width: 100%;
+  display: flex;
+}
+.jp-card .jp-card-front,
+.jp-card .jp-card-back {
+  background: var(--e-global-color-primary) !important;
+}
+.jp-card .jp-card-front .jp-card-shiny,
+.jp-card .jp-card-back .jp-card-shiny {
+  background: #f8e8ab !important;
+}
+.jp-card .jp-card-front .jp-card-shiny:before,
+.jp-card .jp-card-back .jp-card-shiny:before {
+  background: #e2af1e !important;
+}
+.table > thead {
+  vertical-align: bottom;
+  background-color: var(--e-global-color-secondary);
+  color: #fff;
+  border: 1px solid var(--e-global-color-secondary);
+}
+@media only screen and (max-width: 767px) {
+  .jp-card {
+    min-width: auto !important;
+  }
+}
